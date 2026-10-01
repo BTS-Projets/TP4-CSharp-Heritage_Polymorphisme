@@ -26,7 +26,7 @@ namespace TP4_CSharp_Heritage_Polymorphisme
             lesVeh.Add(veh);
             lesVeh.Add(voit); 
             lesVeh.Add(cam);  
-            Console.WriteLine("\n---------affichage véhicules--------\n\n"); 
+            Console.WriteLine("\n---------Affichage des véhicules--------\n\n"); 
             foreach (Vehicule v in lesVeh)
             {
                 v.afficheToi();

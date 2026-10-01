@@ -20,7 +20,7 @@ namespace TP4_CSharp_Heritage_Polymorphisme
             : base(immat, couleur, poids) // on passe les infos au construteur de la classe mère
         {
             vo_nbpassagers = gens;
-            vitesseMaxAutoroute=130;// on y a acces car 
+            vitesseMaxAutoroute=130; // on y a acces car 
         }
 
         //redéfinition de toString

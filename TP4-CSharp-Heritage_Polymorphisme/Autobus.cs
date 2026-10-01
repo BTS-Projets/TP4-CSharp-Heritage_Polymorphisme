@@ -27,14 +27,14 @@ namespace TP4_CSharp_Heritage_Polymorphisme
         public override string ToString()
         {
             //on affiche le résultat d'affichage de la classe parente + celle de la classeCamion
-            return (base.ToString() + "\nType Autobus : " + this.type);
+            return (base.ToString() + "\nType d'Autobus : " + this.type);
         }
 
         public override void afficheToi()
         {
             base.afficheToi();//fait appel à la méthode afficheToi de la classe mère donc Vehicule
             Console.WriteLine("\nVitesse Maxi : " + this.vitesseMaxAutoroute);
-            Console.WriteLine("\nType Autobus : " + this.type);
+            Console.WriteLine("\nType d'Autobus : " + this.type);
         }
     }
 }
