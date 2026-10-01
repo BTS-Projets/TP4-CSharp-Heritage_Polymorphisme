@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CoursHeritage
+namespace TP4_CSharp_Heritage_Polymorphisme
 {
     class Camion:Vehicule // camion hérite de véhicule
     {
