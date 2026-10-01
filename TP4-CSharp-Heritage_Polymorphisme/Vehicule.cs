@@ -8,7 +8,7 @@ namespace TP4_CSharp_Heritage_Polymorphisme
 {
     class Vehicule
     {
-        private string v_immat; 
+        private string v_immat;
         private string v_couleur;
         protected float v_poids;
         protected int vitesseMaxAutoroute;
@@ -21,12 +21,12 @@ namespace TP4_CSharp_Heritage_Polymorphisme
         }
         public virtual void afficheToi()
         {
-            Console.WriteLine("je suis un véhicule d'immat:" + v_immat);
+            Console.WriteLine("je suis un véhicule d'immat: " + v_immat);
         }
 
         public override string ToString()
         {
-            return "Immatriculation : " + this.v_immat + "\nCouleur :" + this.v_couleur + "\nPoids : " + this.v_poids;
+            return "Immatriculation : " + this.v_immat + "\nCouleur : " + this.v_couleur + "\nPoids : " + this.v_poids;
         }
     }
 }

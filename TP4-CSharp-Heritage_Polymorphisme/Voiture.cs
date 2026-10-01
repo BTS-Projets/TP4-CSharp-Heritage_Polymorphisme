@@ -26,7 +26,7 @@ namespace TP4_CSharp_Heritage_Polymorphisme
         //redéfinition de toString
         public override string ToString()
         {
-            return (base.ToString() + "\nnNombre de passagers : "+ this.vo_nbpassagers);
+            return (base.ToString() + "\nNombre de passagers : "+ this.vo_nbpassagers);
         }
 
         public override void afficheToi()
